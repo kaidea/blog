@@ -1,9 +1,13 @@
 {
-    "cSpell.words": [
-        "vitepress"
-    ],
-    "files.exclude": {
-        "node_modules/**": true,
-        "package/node_modules/**": true
-    }
+  "cSpell.words": ["vitepress"],
+  "files.exclude": {
+    "node_modules/**": true,
+    "package/node_modules/**": true
+  },
+  "code-runner.executorMap": {
+    "javascript": "node --disable-warning=ExperimentalWarning",
+    "typescript": "node --disable-warning=ExperimentalWarning"
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true
 }

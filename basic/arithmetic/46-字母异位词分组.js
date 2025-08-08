@@ -3,7 +3,7 @@
 // 字母异位词 是由重新排列源单词的所有字母得到的一个新单词。
 
 // 示例 1:
-let strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
+let strs = ["eat", "tea", "tan", "ate", "nat", "bat"];
 // 输出: [["bat"],["nat","tan"],["ate","eat","tea"]]
 // 示例 2:
 
@@ -26,5 +26,3 @@ function groupAnagrams(strs) {
     }
     return [...map.values()]
 };
-
-console.log(groupAnagrams(strs))
